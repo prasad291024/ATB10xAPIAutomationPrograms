@@ -1,4 +1,4 @@
-package com.prasad_v.exx_03_GET_Request;
+package com.prasad_v.ex_03_GET_Request;
 
 import io.restassured.RestAssured;
 import org.testng.annotations.Test;
