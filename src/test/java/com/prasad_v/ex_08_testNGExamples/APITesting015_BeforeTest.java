@@ -1,9 +1,12 @@
+// Package declaration - Groups this class into a specific package
 package com.prasad_v.ex_08_testNGExamples;
 
+// Importing TestNG annotations for testing lifecycle management
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+// Class definition for API Testing with TestNG
 public class APITesting015_BeforeTest {
     // PUT Request -
     // 1. getToken
@@ -12,25 +15,31 @@ public class APITesting015_BeforeTest {
     // 4. closeAllThings
 
 
-    @BeforeTest()
-    public void getToken(){
-        System.out.println("1");
+    // ---------------------------- PRE-CONDITION METHODS ----------------------------
+
+    @BeforeTest() // Runs BEFORE the test cases (Executed once before all tests)
+    public void getToken() {
+        System.out.println("1"); // Simulating token generation
     }
 
-    @BeforeTest
-    public void getBookingID(){
-        System.out.println("2");
+    @BeforeTest // Runs BEFORE the test cases (Executed once before all tests)
+    public void getBookingID() {
+        System.out.println("2"); // Simulating fetching booking ID
     }
 
-    @Test
-    public void test_PUT(){
-        // token and BookingID
-        System.out.println("3");
+    // ---------------------------- TEST METHOD ----------------------------
+
+    @Test // Main test method (Executes after @BeforeTest methods)
+    public void test_PUT() {
+        // token and BookingID should be used here in an actual test case
+        System.out.println("3"); // Simulating PUT API test execution
     }
 
-    @AfterTest
-    public void closeAllThings(){
-        System.out.println("Close");
+    // ---------------------------- CLEANUP METHOD ----------------------------
+
+    @AfterTest // Runs AFTER all tests have been executed
+    public void closeAllThings() {
+        System.out.println("Close"); // Simulating cleanup actions after the test
     }
 
 }
