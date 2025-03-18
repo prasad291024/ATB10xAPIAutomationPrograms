@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/prasa/IdeaProjects/ATB10xAPIAutomationPrograms">
+        <classes>
+            <class name="com.prasad_v.ex_02_RA_TestNG_AllureReport.APITesting005_TC_TestNG_Fix">
+                <methods>
+                    <include name="test_GET_Positive_TC1"/>
+                    <include name="test_GET_Negative_TC2"/>
+                    <include name="test_GET_Negative_TC3"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_03_GET_Request.APITesting006_GET_BDDStyle">
+                <methods>
+                    <include name="test_BDD_GET"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_03_GET_Request.APITesting007_GET_BDDStyle">
+                <methods>
+                    <include name="test_GET_Req_POSITIVE"/>
+                    <include name="test_GET_Req_NEGATIVE"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_03_GET_Request.APITesting008_GET_NonBDDStyle">
+                <methods>
+                    <include name="test_NonBDD_GET"/>
+                    <include name="test_NonBDDStyleGET_negative"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_04_POST_Request.APITesting009_POST_NonBDDStyle">
+                <methods>
+                    <include name="test_POST_NonBDDStyle_Create_Token"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_04_POST_Request.APITesting010_POST_BDDStyle">
+                <methods>
+                    <include name="test_POST_BDDStyle"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_05_PUT_Request.APITesting011_PUT_NONBddStyle">
+                <methods>
+                    <include name="test_put_non_bdd"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_06_PATCH_Request.APITesting012_PATCH_NONBddStyle">
+                <methods>
+                    <include name="test_patch_non_bdd"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_07_DELETE_Request.APITesting013_DELETE_NONBddStyle">
+                <methods>
+                    <include name="test_delete_non_bdd"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting014">
+                <methods>
+                    <include name="test_post_request2"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting015_BeforeTest">
+                <methods>
+                    <include name="test_PUT"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting016_TestNG">
+                <methods>
+                    <include name="t1"/>
+                    <include name="t2"/>
+                    <include name="t3"/>
+                    <include name="t4"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting018_TestNG_DependsOnMethod">
+                <methods>
+                    <include name="serverStartedOk"/>
+                    <include name="method1"/>
+                    <include name="method2"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting019_TestNG_Parameter">
+                <methods>
+                    <include name="demo1"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting020_TestNG_Enabled">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting021_TestNG_AlwaysRun">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting022_TestNG_invocationCount">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting023_All_Annotations">
+                <methods>
+                    <include name="demo5"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_08_testNGExamples.APITesting024_All_Annotations">
+                <methods>
+                    <include name="demo5"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_09_Assertions.APITesting025_RestAsssured_Assertions">
+                <methods>
+                    <include name="test_POST"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_09_Assertions.APITesting026_TestNG_Assertions">
+                <methods>
+                    <include name="test_hardAssertExample"/>
+                    <include name="test_softAssertExample"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_09_Assertions.APITesting027_RestAssured_TestNG_AssertJ_Assertions">
+                <methods>
+                    <include name="test_POST"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_10_PayloadMagement.APITesting028_RestAssured_Payload_Map">
+                <methods>
+                    <include name="test_POST"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_10_PayloadMagement.gson.APITesting030_RestAssured_GSON">
+                <methods>
+                    <include name="test_Create_Booking_Positive"/>
+                </methods>
+            </class>
+
+            <class name="com.prasad_v.ex_10_PayloadMagement.jackson_api.APITesting031_RestAssured_JackSON_API">
+                <methods>
+                    <include name="test_Create_Booking_Positive"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
