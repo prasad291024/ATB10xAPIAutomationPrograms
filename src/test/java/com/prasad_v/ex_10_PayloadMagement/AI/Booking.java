@@ -1,11 +1,13 @@
 package com.prasad_v.ex_10_PayloadMagement.AI;
 
+import com.prasad_v.ex_10_PayloadMagement.gson.Bookingdates;
+
 public class Booking {
     private String firstname;
     private String lastname;
     private int totalprice;
     private boolean depositpaid;
-    private BookingDates bookingdates;
+    private Bookingdates bookingdates;
     private String additionalneeds;
 
     // Getters and Setters
@@ -41,11 +43,11 @@ public class Booking {
         this.depositpaid = depositpaid;
     }
 
-    public BookingDates getBookingdates() {
+    public Bookingdates getBookingdates() {
         return bookingdates;
     }
 
-    public void setBookingdates(BookingDates bookingdates) {
+    public void setBookingdates(Bookingdates bookingdates) {
         this.bookingdates = bookingdates;
     }
 

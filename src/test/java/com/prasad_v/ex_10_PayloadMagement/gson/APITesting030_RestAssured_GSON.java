@@ -1,6 +1,7 @@
 package com.prasad_v.ex_10_PayloadMagement.gson;
 
 import com.google.gson.Gson;
+import com.prasad_v.ex_10_PayloadMagement.jackson_api.BookingResponse;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
