@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6","test_PUT","Surefire suite","Mon Mar 17 21:47:18 IST 2025","passed","Mon Mar 17 21:47:18 IST 2025","com.prasad_v.ex_08_testNGExamples.APITesting015_BeforeTest","Surefire test","com.prasad_v.ex_08_testNGExamples.APITesting015_BeforeTest","test_PUT"
